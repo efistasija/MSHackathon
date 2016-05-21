@@ -1,0 +1,13 @@
+encapsulation:60,
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"99AA8638-57A9-4EDA-8161-EA7480399434"
+}
+],
+name:"sensor",
+showInMenu:true,
+typeid:3,
+uuid:"86D79407-9A26-45A7-9284-0797D9F7DD35"

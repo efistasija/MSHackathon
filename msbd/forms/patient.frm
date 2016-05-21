@@ -1,0 +1,14 @@
+dataSource:"db:/big_dating/patient",
+encapsulation:60,
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"C07305C8-B37F-497D-9453-509F15B03017"
+}
+],
+name:"patient",
+showInMenu:true,
+typeid:3,
+uuid:"2749D4F1-CFF1-4F77-9131-DA40B4218629"
