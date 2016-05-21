@@ -9,23 +9,13 @@
          Define a non-SSL HTTP/1.1 Connector on port 8080
     -->
     
-    <Connector port="9090" 
+    <Connector port="8080" 
     		   protocol="HTTP/1.1" 
                maxThreads="500" connectionTimeout="60000" 
                redirectPort="8443" useBodyEncodingForURI="true" 
                 compression="4096"
                compressableMimeType="text/html,text/xml,text/plain,text/javascript,text/css" />
     <!-- Note : To disable connection timeouts, set connectionTimeout value to -1 -->
-	
-	<Connector port="9443"
-			   maxThreads="500" 
-			   connectionTimeout="60000"
-			   scheme="https" 
-			   secure="true" 
-			   SSLEnabled="true"
-			   keystoreFile="conf/mykeystore.ks" 
-			   keystorePass="ac22kaka"
-	/>	
 
     <!-- Define the top level container in our container hierarchy -->
     <Engine name="Catalina" defaultHost="localhost">

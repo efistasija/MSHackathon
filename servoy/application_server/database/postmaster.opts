@@ -1,0 +1,1 @@
+/usr/local/servoy/application_server/postgres_db/bin/postgres "-D" "database"

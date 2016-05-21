@@ -1,276 +1,1823 @@
-LOG:  database system was shut down at 2016-03-18 13:39:07 CET
+LOG:  database system was shut down at 2015-09-23 10:16:49 EDT
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
-FATAL:  role "Paolo" does not exist
+FATAL:  role "osboxes" does not exist
 LOG:  received smart shutdown request
 LOG:  autovacuum launcher shutting down
 LOG:  shutting down
 LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-18 13:39:26 CET
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-18 14:10:29 CET
+LOG:  database system was shut down at 2015-09-23 10:16:55 EDT
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
 LOG:  received smart shutdown request
 LOG:  autovacuum launcher shutting down
 LOG:  shutting down
 LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-18 14:22:11 CET
+LOG:  database system was shut down at 2015-09-23 10:24:45 EDT
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
 LOG:  received smart shutdown request
 LOG:  autovacuum launcher shutting down
 LOG:  shutting down
 LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-18 16:17:05 CET
+LOG:  database system was shut down at 2015-09-23 10:26:06 EDT
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
 LOG:  received smart shutdown request
 LOG:  autovacuum launcher shutting down
 LOG:  shutting down
 LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-18 16:19:50 CET
+LOG:  database system was shut down at 2015-09-23 10:30:39 EDT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 2483) running in data directory "/usr/local/servoy/application_server/database"?
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-09-23 10:33:41 EDT
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
 LOG:  received smart shutdown request
 LOG:  autovacuum launcher shutting down
 LOG:  shutting down
 LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-18 16:25:14 CET
+LOG:  database system was shut down at 2015-09-23 10:37:29 EDT
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
 LOG:  received smart shutdown request
 LOG:  autovacuum launcher shutting down
 LOG:  shutting down
 LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-18 16:43:02 CET
+LOG:  database system was shut down at 2015-09-23 12:13:33 EDT
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-21 13:37:35 CET
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-29 11:59:04 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-29 16:38:43 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-29 17:17:39 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-31 10:11:31 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-31 10:15:30 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-31 10:21:40 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-31 10:24:09 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
+FATAL:  role "osboxes" does not exist
+ERROR:  database "servoy_repository" already exists
+STATEMENT:  CREATE DATABASE servoy_repository;
 	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
+ERROR:  database "user_data" already exists
+STATEMENT:  CREATE DATABASE user_data;
 	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
+ERROR:  database "example" already exists
+STATEMENT:  CREATE DATABASE example;
 	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
+ERROR:  database "log_data" already exists
+STATEMENT:  CREATE DATABASE log_data;
 	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
+ERROR:  database "udm" already exists
+STATEMENT:  CREATE DATABASE udm;
 	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
+ERROR:  database "pdf_forms" already exists
+STATEMENT:  CREATE DATABASE pdf_forms;
 	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
+ERROR:  database "bug_db" already exists
+STATEMENT:  CREATE DATABASE bug_db;
+	
+ERROR:  relation "servoy_columninfo" already exists
+STATEMENT:  CREATE TABLE servoy_columninfo (
+	    connection_name character varying(50) NOT NULL,
+	    tablename character varying(50) NOT NULL,
+	    columnname character varying(50) NOT NULL,
+	    columninfo_id integer NOT NULL,
+	    auto_enter_type integer NOT NULL,
+	    system_value integer,
+	    pre_sequence_chars character varying(50),
+	    post_sequence_chars character varying(50),
+	    next_seq bigint,
+	    sequence_stepsize integer,
+	    client_id_lock character varying(50),
+	    default_value character varying(3000),
+	    lookup_value character varying(3000),
+	    foreign_type character varying(150),
+	    validator_name character varying(200),
+	    validator_properties character varying(3000),
+	    converter_name character varying(200),
+	    converter_properties character varying(3000),
+	    title_text character varying(200),
+	    default_format character varying(200),
+	    description character varying(3000),
+	    is_row_ident integer,
+	    db_sequence_name character varying(50),
+	    element_template_properties character varying(3000),
+	    dataprovider_id character varying(200),
+	    contains_metadata integer,
+	    datatype integer,
+	    columnsize integer,
+	    compatible_types character varying(500),
+	    columnscale integer
+	);
+	
+	
+	
+ERROR:  relation "servoy_content_spec" already exists
+STATEMENT:  CREATE TABLE servoy_content_spec (
+	    content_id integer NOT NULL,
+	    object_type_id integer NOT NULL,
+	    property_name character varying(50) NOT NULL,
+	    type_id integer NOT NULL,
+	    display_seq integer,
+	    default_textual_classvalue character varying(200),
+	    is_metadata integer,
+	    is_deprecated integer
+	);
+	
+	
+	
+ERROR:  relation "servoy_element_properties" already exists
+STATEMENT:  CREATE TABLE servoy_element_properties (
+	    element_property_id integer NOT NULL,
+	    element_id integer NOT NULL,
+	    content_id integer NOT NULL,
+	    property_value character varying(3000) NOT NULL,
+	    revision integer NOT NULL,
+	    sequence integer NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "servoy_elements" already exists
+STATEMENT:  CREATE TABLE servoy_elements (
+	    element_id integer NOT NULL,
+	    object_uuid character varying(37) NOT NULL,
+	    revision integer NOT NULL,
+	    parent_element_id integer,
+	    object_type_id integer NOT NULL,
+	    root_element_id integer NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "servoy_group_elements" already exists
+STATEMENT:  CREATE TABLE servoy_group_elements (
+	    group_element_id integer NOT NULL,
+	    group_id integer NOT NULL,
+	    element_id integer NOT NULL,
+	    element_access integer,
+	    columninfo_access integer,
+	    root_element_id integer NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "servoy_groups" already exists
+STATEMENT:  CREATE TABLE servoy_groups (
+	    group_id integer NOT NULL,
+	    group_name character varying(100) NOT NULL,
+	    group_description character varying(100)
+	);
+	
+	
+	
+ERROR:  relation "servoy_media" already exists
+STATEMENT:  CREATE TABLE servoy_media (
+	    media_id integer NOT NULL,
+	    media_data bytea,
+	    media_hash character varying(100)
+	);
+	
+	
+	
+ERROR:  relation "servoy_object_types" already exists
+STATEMENT:  CREATE TABLE servoy_object_types (
+	    object_type_id integer NOT NULL,
+	    next_seq integer NOT NULL,
+	    seq_cache_size integer NOT NULL,
+	    client_id_lock character varying(50),
+	    name character varying(100),
+	    description character varying(200),
+	    java_class character varying(200)
+	);
+	
+	
+	
+ERROR:  relation "servoy_releases" already exists
+STATEMENT:  CREATE TABLE servoy_releases (
+	    pk_id integer NOT NULL,
+	    release_number integer NOT NULL,
+	    root_element_id integer NOT NULL,
+	    element_id integer NOT NULL,
+	    revision integer NOT NULL,
+	    creation_date timestamp without time zone
+	);
+	
+	
+	
+ERROR:  relation "servoy_revision_history" already exists
+STATEMENT:  CREATE TABLE servoy_revision_history (
+	    object_uuid character varying(37) NOT NULL,
+	    server_uuid character varying(37) NOT NULL,
+	    revision integer NOT NULL,
+	    root_element_id integer NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "servoy_root_elements" already exists
+STATEMENT:  CREATE TABLE servoy_root_elements (
+	    root_element_id integer NOT NULL,
+	    root_element_uuid character varying(37),
+	    name character varying(100) NOT NULL,
+	    object_type_id integer NOT NULL,
+	    active_release integer NOT NULL,
+	    latest_release integer NOT NULL,
+	    on_line integer NOT NULL,
+	    active_update_sequence integer
+	);
+	
+	
+	
+ERROR:  relation "servoy_user_groups" already exists
+STATEMENT:  CREATE TABLE servoy_user_groups (
+	    user_group_id integer NOT NULL,
+	    user_id integer NOT NULL,
+	    group_id integer NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "servoy_user_properties" already exists
+STATEMENT:  CREATE TABLE servoy_user_properties (
+	    user_property_id integer NOT NULL,
+	    user_id integer NOT NULL,
+	    name character varying(100) NOT NULL,
+	    property_value character varying(3000) NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "servoy_users" already exists
+STATEMENT:  CREATE TABLE servoy_users (
+	    user_id integer NOT NULL,
+	    user_uid character varying(200) NOT NULL,
+	    user_name character varying(50) NOT NULL,
+	    user_password character varying(150) NOT NULL
+	);
+	
+	
+	
+ERROR:  duplicate key value violates unique constraint "servoy_columninfo_pkey"
+DETAIL:  Key (columnname, connection_name, tablename)=(group_name, repository_server, servoy_groups) already exists.
+CONTEXT:  COPY servoy_columninfo, line 1
+STATEMENT:  COPY servoy_columninfo (connection_name, tablename, columnname, columninfo_id, auto_enter_type, system_value, pre_sequence_chars, post_sequence_chars, next_seq, sequence_stepsize, client_id_lock, default_value, lookup_value, foreign_type, validator_name, validator_properties, converter_name, converter_properties, title_text, default_format, description, is_row_ident, db_sequence_name, element_template_properties, dataprovider_id, contains_metadata, datatype, columnsize, compatible_types, columnscale) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "servoy_content_spec_pkey"
+DETAIL:  Key (content_id)=(433) already exists.
+CONTEXT:  COPY servoy_content_spec, line 1
+STATEMENT:  COPY servoy_content_spec (content_id, object_type_id, property_name, type_id, display_seq, default_textual_classvalue, is_metadata, is_deprecated) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "servoy_element_properties_pkey"
+DETAIL:  Key (element_property_id)=(2) already exists.
+CONTEXT:  COPY servoy_element_properties, line 1
+STATEMENT:  COPY servoy_element_properties (element_property_id, element_id, content_id, property_value, revision, sequence) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "servoy_elements_pkey"
+DETAIL:  Key (element_id, object_uuid, revision)=(17, 6eea2790-9dfc-47bf-8929-999e01e30e65, 1) already exists.
+CONTEXT:  COPY servoy_elements, line 1
+STATEMENT:  COPY servoy_elements (element_id, object_uuid, revision, parent_element_id, object_type_id, root_element_id) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "servoy_groups_pkey"
+DETAIL:  Key (group_id)=(1) already exists.
+CONTEXT:  COPY servoy_groups, line 1
+STATEMENT:  COPY servoy_groups (group_id, group_name, group_description) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "servoy_media_pkey"
+DETAIL:  Key (media_id)=(2) already exists.
+CONTEXT:  COPY servoy_media, line 1
+STATEMENT:  COPY servoy_media (media_id, media_data, media_hash) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "servoy_object_types_pkey"
+DETAIL:  Key (object_type_id)=(2) already exists.
+CONTEXT:  COPY servoy_object_types, line 1
+STATEMENT:  COPY servoy_object_types (object_type_id, next_seq, seq_cache_size, client_id_lock, name, description, java_class) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "servoy_releases_pkey"
+DETAIL:  Key (pk_id)=(2) already exists.
+CONTEXT:  COPY servoy_releases, line 1
+STATEMENT:  COPY servoy_releases (pk_id, release_number, root_element_id, element_id, revision, creation_date) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "servoy_revision_history_pkey"
+DETAIL:  Key (object_uuid, server_uuid)=(6992ee8d-d6fb-4cfa-9910-48e396f8ad20, F62BD07C-A785-4D35-97C0-B2FEE256984A) already exists.
+CONTEXT:  COPY servoy_revision_history, line 1
+STATEMENT:  COPY servoy_revision_history (object_uuid, server_uuid, revision, root_element_id) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "servoy_root_elements_pkey"
+DETAIL:  Key (root_element_id)=(1622) already exists.
+CONTEXT:  COPY servoy_root_elements, line 1
+STATEMENT:  COPY servoy_root_elements (root_element_id, root_element_uuid, name, object_type_id, active_release, latest_release, on_line, active_update_sequence) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "servoy_user_properties_pkey"
+DETAIL:  Key (user_property_id)=(4) already exists.
+CONTEXT:  COPY servoy_user_properties, line 1
+STATEMENT:  COPY servoy_user_properties (user_property_id, user_id, name, property_value) FROM stdin;
+	
+ERROR:  multiple primary keys for table "servoy_columninfo" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_columninfo
+	    ADD CONSTRAINT servoy_columninfo_pkey PRIMARY KEY (columnname, connection_name, tablename);
+	
+	
+	
+ERROR:  multiple primary keys for table "servoy_content_spec" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_content_spec
+	    ADD CONSTRAINT servoy_content_spec_pkey PRIMARY KEY (content_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "servoy_element_properties" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_element_properties
+	    ADD CONSTRAINT servoy_element_properties_pkey PRIMARY KEY (element_property_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "servoy_elements" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_elements
+	    ADD CONSTRAINT servoy_elements_pkey PRIMARY KEY (element_id, object_uuid, revision);
+	
+	
+	
+ERROR:  multiple primary keys for table "servoy_group_elements" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_group_elements
+	    ADD CONSTRAINT servoy_group_elements_pkey PRIMARY KEY (group_element_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "servoy_groups" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_groups
+	    ADD CONSTRAINT servoy_groups_pkey PRIMARY KEY (group_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "servoy_media" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_media
+	    ADD CONSTRAINT servoy_media_pkey PRIMARY KEY (media_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "servoy_object_types" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_object_types
+	    ADD CONSTRAINT servoy_object_types_pkey PRIMARY KEY (object_type_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "servoy_releases" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_releases
+	    ADD CONSTRAINT servoy_releases_pkey PRIMARY KEY (pk_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "servoy_revision_history" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_revision_history
+	    ADD CONSTRAINT servoy_revision_history_pkey PRIMARY KEY (object_uuid, server_uuid);
+	
+	
+	
+ERROR:  multiple primary keys for table "servoy_root_elements" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_root_elements
+	    ADD CONSTRAINT servoy_root_elements_pkey PRIMARY KEY (root_element_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "servoy_user_groups" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_user_groups
+	    ADD CONSTRAINT servoy_user_groups_pkey PRIMARY KEY (user_group_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "servoy_user_properties" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_user_properties
+	    ADD CONSTRAINT servoy_user_properties_pkey PRIMARY KEY (user_property_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "servoy_users" are not allowed
+STATEMENT:  ALTER TABLE ONLY servoy_users
+	    ADD CONSTRAINT servoy_users_pkey PRIMARY KEY (user_id);
+	
+	
+	
+ERROR:  relation "cs_oti" already exists
+STATEMENT:  CREATE INDEX cs_oti ON servoy_content_spec USING btree (object_type_id);
+	
+	
+	
+ERROR:  relation "e_er" already exists
+STATEMENT:  CREATE UNIQUE INDEX e_er ON servoy_elements USING btree (element_id, revision);
+	
+	
+	
+ERROR:  relation "e_oti" already exists
+STATEMENT:  CREATE INDEX e_oti ON servoy_elements USING btree (object_type_id);
+	
+	
+	
+ERROR:  relation "e_pe" already exists
+STATEMENT:  CREATE INDEX e_pe ON servoy_elements USING btree (parent_element_id);
+	
+	
+	
+ERROR:  relation "e_r" already exists
+STATEMENT:  CREATE INDEX e_r ON servoy_elements USING btree (revision);
+	
+	
+	
+ERROR:  relation "e_ur" already exists
+STATEMENT:  CREATE UNIQUE INDEX e_ur ON servoy_elements USING btree (object_uuid, revision);
+	
+	
+	
+ERROR:  relation "ep_ci" already exists
+STATEMENT:  CREATE INDEX ep_ci ON servoy_element_properties USING btree (content_id);
+	
+	
+	
+ERROR:  relation "ep_e" already exists
+STATEMENT:  CREATE INDEX ep_e ON servoy_element_properties USING btree (element_id);
+	
+	
+	
+ERROR:  relation "ep_er" already exists
+STATEMENT:  CREATE INDEX ep_er ON servoy_element_properties USING btree (element_id, revision);
+	
+	
+	
+ERROR:  relation "ep_erc" already exists
+STATEMENT:  CREATE INDEX ep_erc ON servoy_element_properties USING btree (element_id, revision, content_id);
+	
+	
+	
+ERROR:  relation "g_n" already exists
+STATEMENT:  CREATE UNIQUE INDEX g_n ON servoy_groups USING btree (group_name);
+	
+	
+	
+ERROR:  relation "ge_e" already exists
+STATEMENT:  CREATE INDEX ge_e ON servoy_group_elements USING btree (element_id);
+	
+	
+	
+ERROR:  relation "ge_gi" already exists
+STATEMENT:  CREATE INDEX ge_gi ON servoy_group_elements USING btree (group_id);
+	
+	
+	
+ERROR:  relation "ge_ri" already exists
+STATEMENT:  CREATE INDEX ge_ri ON servoy_group_elements USING btree (root_element_id);
+	
+	
+	
+ERROR:  relation "r_err" already exists
+STATEMENT:  CREATE INDEX r_err ON servoy_releases USING btree (element_id, release_number, revision);
+	
+	
+	
+ERROR:  relation "r_rerr" already exists
+STATEMENT:  CREATE INDEX r_rerr ON servoy_releases USING btree (root_element_id, element_id, release_number, revision);
+	
+	
+	
+ERROR:  relation "re_no" already exists
+STATEMENT:  CREATE UNIQUE INDEX re_no ON servoy_root_elements USING btree (name, object_type_id);
+	
+	
+	
+ERROR:  relation "re_o" already exists
+STATEMENT:  CREATE INDEX re_o ON servoy_root_elements USING btree (on_line);
+	
+	
+	
+ERROR:  relation "rh_r" already exists
+STATEMENT:  CREATE INDEX rh_r ON servoy_revision_history USING btree (root_element_id);
+	
+	
+	
+ERROR:  relation "sc_ci" already exists
+STATEMENT:  CREATE INDEX sc_ci ON servoy_columninfo USING btree (columninfo_id);
+	
+	
+	
+ERROR:  relation "u_ui" already exists
+STATEMENT:  CREATE UNIQUE INDEX u_ui ON servoy_users USING btree (user_uid);
+	
+	
+	
+ERROR:  relation "u_un" already exists
+STATEMENT:  CREATE UNIQUE INDEX u_un ON servoy_users USING btree (user_name);
+	
+	
+	
+ERROR:  relation "up_ui" already exists
+STATEMENT:  CREATE INDEX up_ui ON servoy_user_properties USING btree (user_id);
+	
+	
+	
+ERROR:  relation "datasources" already exists
+STATEMENT:  CREATE TABLE datasources (
+	    datasource_id integer NOT NULL,
+	    server_name character varying(100) NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "elements" already exists
+STATEMENT:  CREATE TABLE elements (
+	    element_id integer NOT NULL,
+	    entity_id integer NOT NULL,
+	    view_type integer NOT NULL,
+	    label character varying(50),
+	    dataprovider_id character varying(50),
+	    field_type integer,
+	    display_options integer,
+	    xlocation integer,
+	    ylocation integer,
+	    width integer,
+	    height integer,
+	    element_name character varying(100),
+	    user_uid character varying(100),
+	    other_properties character varying(2000),
+	    element_type integer
+	);
+	
+	
+	
+ERROR:  relation "entities" already exists
+STATEMENT:  CREATE TABLE entities (
+	    entity_id integer NOT NULL,
+	    datasource_id integer NOT NULL,
+	    table_name character varying(50) NOT NULL,
+	    heading_single character varying(50),
+	    heading_plural character varying(50),
+	    allow_new_rec integer,
+	    allow_del_rec integer,
+	    allow_search_rec integer,
+	    tabs_relation_names character varying(500)
+	);
+	
+	
+	
+ERROR:  duplicate key value violates unique constraint "datasources_pkey"
+DETAIL:  Key (datasource_id)=(1) already exists.
+CONTEXT:  COPY datasources, line 1
+STATEMENT:  COPY datasources (datasource_id, server_name) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "elements_pkey"
+DETAIL:  Key (element_id)=(105) already exists.
+CONTEXT:  COPY elements, line 1
+STATEMENT:  COPY elements (element_id, entity_id, view_type, label, dataprovider_id, field_type, display_options, xlocation, ylocation, width, height, element_name, user_uid, other_properties, element_type) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "entities_pkey"
+DETAIL:  Key (entity_id)=(1) already exists.
+CONTEXT:  COPY entities, line 1
+STATEMENT:  COPY entities (entity_id, datasource_id, table_name, heading_single, heading_plural, allow_new_rec, allow_del_rec, allow_search_rec, tabs_relation_names) FROM stdin;
+	
+ERROR:  multiple primary keys for table "datasources" are not allowed
+STATEMENT:  ALTER TABLE ONLY datasources
+	    ADD CONSTRAINT datasources_pkey PRIMARY KEY (datasource_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "elements" are not allowed
+STATEMENT:  ALTER TABLE ONLY elements
+	    ADD CONSTRAINT elements_pkey PRIMARY KEY (element_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "entities" are not allowed
+STATEMENT:  ALTER TABLE ONLY entities
+	    ADD CONSTRAINT entities_pkey PRIMARY KEY (entity_id);
+	
+	
+	
+ERROR:  relation "book_nodes" already exists
+STATEMENT:  CREATE TABLE book_nodes (
+	    parent_id integer,
+	    label_text character varying(255),
+	    node_id integer NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "book_text" already exists
+STATEMENT:  CREATE TABLE book_text (
+	    note_text character varying(8000),
+	    node_id integer,
+	    comment_text character varying(8000),
+	    item_text character varying(8000),
+	    book_text_id integer NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "categories" already exists
+STATEMENT:  CREATE TABLE categories (
+	    categoryid integer NOT NULL,
+	    categoryname character varying(15) NOT NULL,
+	    description character varying(4000),
+	    picture bytea
+	);
+	
+	
+	
+ERROR:  relation "chat_users" already exists
+STATEMENT:  CREATE TABLE chat_users (
+	    user_name character varying(50),
+	    ip_address character varying(50),
+	    login_time timestamp without time zone,
+	    chat_user_id integer NOT NULL,
+	    status integer
+	);
+	
+	
+	
+ERROR:  relation "customers" already exists
+STATEMENT:  CREATE TABLE customers (
+	    customerid character(5) NOT NULL,
+	    companyname character varying(40) NOT NULL,
+	    contactname character varying(30),
+	    contacttitle character varying(30),
+	    address character varying(60),
+	    city character varying(15),
+	    region character varying(15),
+	    postalcode character varying(10),
+	    country character varying(15),
+	    phone character varying(24),
+	    fax character varying(24)
+	);
+	
+	
+	
+ERROR:  relation "employees" already exists
+STATEMENT:  CREATE TABLE employees (
+	    employeeid integer NOT NULL,
+	    lastname character varying(20) NOT NULL,
+	    firstname character varying(10) NOT NULL,
+	    title character varying(30),
+	    titleofcourtesy character varying(25),
+	    birthdate timestamp without time zone,
+	    hiredate timestamp without time zone,
+	    address character varying(60),
+	    city character varying(15),
+	    region character varying(15),
+	    postalcode character varying(10),
+	    country character varying(15),
+	    homephone character varying(24),
+	    extension character varying(4),
+	    photo bytea,
+	    notes character varying(4000),
+	    reportsto integer,
+	    photopath character varying(255)
+	);
+	
+	
+	
+ERROR:  relation "order_details" already exists
+STATEMENT:  CREATE TABLE order_details (
+	    orderid integer NOT NULL,
+	    productid integer NOT NULL,
+	    unitprice integer NOT NULL,
+	    quantity integer NOT NULL,
+	    discount double precision NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "orders" already exists
+STATEMENT:  CREATE TABLE orders (
+	    orderid integer NOT NULL,
+	    customerid character(5),
+	    employeeid integer,
+	    orderdate timestamp without time zone,
+	    requireddate timestamp without time zone,
+	    shippeddate timestamp without time zone,
+	    shipvia integer,
+	    freight integer,
+	    shipname character varying(40),
+	    shipaddress character varying(60),
+	    shipcity character varying(15),
+	    shipregion character varying(15),
+	    shippostalcode character varying(10),
+	    shipcountry character varying(15)
+	);
+	
+	
+	
+ERROR:  relation "products" already exists
+STATEMENT:  CREATE TABLE products (
+	    productid integer NOT NULL,
+	    productname character varying(40) NOT NULL,
+	    supplierid integer,
+	    categoryid integer,
+	    quantityperunit character varying(20),
+	    unitprice double precision,
+	    unitsinstock integer,
+	    unitsonorder integer,
+	    reorderlevel integer,
+	    discontinued integer NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "region" already exists
+STATEMENT:  CREATE TABLE region (
+	    regionid integer NOT NULL,
+	    regiondescription character(50) NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "shippers" already exists
+STATEMENT:  CREATE TABLE shippers (
+	    shipperid integer NOT NULL,
+	    companyname character varying(40) NOT NULL,
+	    phone character varying(24)
+	);
+	
+	
+	
+ERROR:  relation "suppliers" already exists
+STATEMENT:  CREATE TABLE suppliers (
+	    supplierid integer NOT NULL,
+	    companyname character varying(40) NOT NULL,
+	    contactname character varying(30),
+	    contacttitle character varying(30),
+	    address character varying(60),
+	    city character varying(15),
+	    region character varying(15),
+	    postalcode character varying(10),
+	    country character varying(15),
+	    phone character varying(24),
+	    fax character varying(24),
+	    homepage character varying(4000)
+	);
+	
+	
+	
+ERROR:  relation "territories" already exists
+STATEMENT:  CREATE TABLE territories (
+	    territoryid character varying(20) NOT NULL,
+	    territorydescription character(50) NOT NULL,
+	    regionid integer NOT NULL
+	);
+	
+	
+	
+ERROR:  duplicate key value violates unique constraint "book_nodes_pkey"
+DETAIL:  Key (node_id)=(1) already exists.
+CONTEXT:  COPY book_nodes, line 1
+STATEMENT:  COPY book_nodes (parent_id, label_text, node_id) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "book_text_pkey"
+DETAIL:  Key (book_text_id)=(1) already exists.
+CONTEXT:  COPY book_text, line 1
+STATEMENT:  COPY book_text (note_text, node_id, comment_text, item_text, book_text_id) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (categoryid)=(1) already exists.
+CONTEXT:  COPY categories, line 1
+STATEMENT:  COPY categories (categoryid, categoryname, description, picture) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "customers_pkey"
+DETAIL:  Key (customerid)=(ALFKI) already exists.
+CONTEXT:  COPY customers, line 1
+STATEMENT:  COPY customers (customerid, companyname, contactname, contacttitle, address, city, region, postalcode, country, phone, fax) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "employees_pkey"
+DETAIL:  Key (employeeid)=(1) already exists.
+CONTEXT:  COPY employees, line 1
+STATEMENT:  COPY employees (employeeid, lastname, firstname, title, titleofcourtesy, birthdate, hiredate, address, city, region, postalcode, country, homephone, extension, photo, notes, reportsto, photopath) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "order_details_pkey"
+DETAIL:  Key (orderid, productid)=(10248, 11) already exists.
+CONTEXT:  COPY order_details, line 1
+STATEMENT:  COPY order_details (orderid, productid, unitprice, quantity, discount) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "orders_pkey"
+DETAIL:  Key (orderid)=(10248) already exists.
+CONTEXT:  COPY orders, line 1
+STATEMENT:  COPY orders (orderid, customerid, employeeid, orderdate, requireddate, shippeddate, shipvia, freight, shipname, shipaddress, shipcity, shipregion, shippostalcode, shipcountry) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "products_pkey"
+DETAIL:  Key (productid)=(1) already exists.
+CONTEXT:  COPY products, line 1
+STATEMENT:  COPY products (productid, productname, supplierid, categoryid, quantityperunit, unitprice, unitsinstock, unitsonorder, reorderlevel, discontinued) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "region_pkey"
+DETAIL:  Key (regionid)=(1) already exists.
+CONTEXT:  COPY region, line 1
+STATEMENT:  COPY region (regionid, regiondescription) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "shippers_pkey"
+DETAIL:  Key (shipperid)=(1) already exists.
+CONTEXT:  COPY shippers, line 1
+STATEMENT:  COPY shippers (shipperid, companyname, phone) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "suppliers_pkey"
+DETAIL:  Key (supplierid)=(1) already exists.
+CONTEXT:  COPY suppliers, line 1
+STATEMENT:  COPY suppliers (supplierid, companyname, contactname, contacttitle, address, city, region, postalcode, country, phone, fax, homepage) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "territories_pkey"
+DETAIL:  Key (territoryid)=(01581) already exists.
+CONTEXT:  COPY territories, line 1
+STATEMENT:  COPY territories (territoryid, territorydescription, regionid) FROM stdin;
+	
+ERROR:  multiple primary keys for table "book_nodes" are not allowed
+STATEMENT:  ALTER TABLE ONLY book_nodes
+	    ADD CONSTRAINT book_nodes_pkey PRIMARY KEY (node_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "book_text" are not allowed
+STATEMENT:  ALTER TABLE ONLY book_text
+	    ADD CONSTRAINT book_text_pkey PRIMARY KEY (book_text_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "categories" are not allowed
+STATEMENT:  ALTER TABLE ONLY categories
+	    ADD CONSTRAINT categories_pkey PRIMARY KEY (categoryid);
+	
+	
+	
+ERROR:  multiple primary keys for table "chat_users" are not allowed
+STATEMENT:  ALTER TABLE ONLY chat_users
+	    ADD CONSTRAINT chat_users_pkey PRIMARY KEY (chat_user_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "customers" are not allowed
+STATEMENT:  ALTER TABLE ONLY customers
+	    ADD CONSTRAINT customers_pkey PRIMARY KEY (customerid);
+	
+	
+	
+ERROR:  multiple primary keys for table "employees" are not allowed
+STATEMENT:  ALTER TABLE ONLY employees
+	    ADD CONSTRAINT employees_pkey PRIMARY KEY (employeeid);
+	
+	
+	
+ERROR:  multiple primary keys for table "order_details" are not allowed
+STATEMENT:  ALTER TABLE ONLY order_details
+	    ADD CONSTRAINT order_details_pkey PRIMARY KEY (orderid, productid);
+	
+	
+	
+ERROR:  multiple primary keys for table "orders" are not allowed
+STATEMENT:  ALTER TABLE ONLY orders
+	    ADD CONSTRAINT orders_pkey PRIMARY KEY (orderid);
+	
+	
+	
+ERROR:  multiple primary keys for table "products" are not allowed
+STATEMENT:  ALTER TABLE ONLY products
+	    ADD CONSTRAINT products_pkey PRIMARY KEY (productid);
+	
+	
+	
+ERROR:  multiple primary keys for table "region" are not allowed
+STATEMENT:  ALTER TABLE ONLY region
+	    ADD CONSTRAINT region_pkey PRIMARY KEY (regionid);
+	
+	
+	
+ERROR:  multiple primary keys for table "shippers" are not allowed
+STATEMENT:  ALTER TABLE ONLY shippers
+	    ADD CONSTRAINT shippers_pkey PRIMARY KEY (shipperid);
+	
+	
+	
+ERROR:  multiple primary keys for table "suppliers" are not allowed
+STATEMENT:  ALTER TABLE ONLY suppliers
+	    ADD CONSTRAINT suppliers_pkey PRIMARY KEY (supplierid);
+	
+	
+	
+ERROR:  multiple primary keys for table "territories" are not allowed
+STATEMENT:  ALTER TABLE ONLY territories
+	    ADD CONSTRAINT territories_pkey PRIMARY KEY (territoryid);
+	
+	
+	
+ERROR:  relation "client_stats" already exists
+STATEMENT:  CREATE TABLE client_stats (
+	    pk_id integer NOT NULL,
+	    server_ip character varying(20),
+	    server_name character varying(200),
+	    total_clients_running integer NOT NULL,
+	    client_id character varying(37) NOT NULL,
+	    start_time timestamp without time zone,
+	    stop_time timestamp without time zone,
+	    extra_info character varying(200),
+	    user_uid character varying(200)
+	);
+	
+	
+	
+ERROR:  duplicate key value violates unique constraint "client_stats_pkey"
+DETAIL:  Key (pk_id)=(1) already exists.
+CONTEXT:  COPY client_stats, line 1
+STATEMENT:  COPY client_stats (pk_id, server_ip, server_name, total_clients_running, client_id, start_time, stop_time, extra_info, user_uid) FROM stdin;
+	
+ERROR:  multiple primary keys for table "client_stats" are not allowed
+STATEMENT:  ALTER TABLE ONLY client_stats
+	    ADD CONSTRAINT client_stats_pkey PRIMARY KEY (pk_id);
+	
+	
+	
+ERROR:  relation "addresses" already exists
+STATEMENT:  CREATE TABLE addresses (
+	    phone character varying(20),
+	    modification_user integer,
+	    creation_user integer,
+	    line_3 character varying(200),
+	    country character varying(5),
+	    fax character varying(20),
+	    address_type_id integer,
+	    line_4 character varying(200),
+	    is_active integer,
+	    zipcode character varying(20),
+	    creation_date timestamp without time zone,
+	    county character varying(20),
+	    line_2 character varying(200),
+	    line_5 character varying(200),
+	    email character varying(200),
+	    address_id integer NOT NULL,
+	    company_id integer,
+	    modification_date timestamp without time zone,
+	    line_1 character varying(200),
+	    state character varying(20),
+	    phone_format character varying(50),
+	    city character varying(200),
+	    icon bytea,
+	    test_number numeric(19,0)
+	);
+	
+	
+	
+ERROR:  relation "companies" already exists
+STATEMENT:  CREATE TABLE companies (
+	    is_active integer,
+	    modification_date timestamp without time zone,
+	    company_url character varying(50),
+	    company_description text,
+	    creation_user integer,
+	    company_email character varying(255),
+	    company_industry text,
+	    creation_date timestamp without time zone,
+	    html_sales text,
+	    company_type_id integer,
+	    company_category text,
+	    company_id integer NOT NULL,
+	    company_name character varying(200),
+	    order_item_id integer,
+	    modification_user integer,
+	    html_sales2 text,
+	    company_notes text,
+	    accountmanager_id integer
+	);
+	
+	
+	
+ERROR:  relation "contacts" already exists
+STATEMENT:  CREATE TABLE contacts (
+	    name_first character varying(200),
+	    company_id integer,
+	    contact_id integer NOT NULL,
+	    creation_user integer,
+	    job_function integer,
+	    creation_date timestamp without time zone,
+	    name_prefix character varying(200),
+	    name_suffix character varying(200),
+	    mail_use_company integer,
+	    mail_use_country integer,
+	    contact_type_id integer,
+	    is_active integer,
+	    name_last character varying(200),
+	    job_title character varying(255),
+	    modification_date timestamp without time zone,
+	    modification_user integer,
+	    email character varying(200),
+	    name_middle character varying(200),
+	    fax_direct character varying(20),
+	    contact_notes text,
+	    phone_cell character varying(20),
+	    name_title character varying(200),
+	    phone_direct character varying(20),
+	    mail_address_id integer
+	);
+	
+	
+	
+ERROR:  relation "order_items" already exists
+STATEMENT:  CREATE TABLE order_items (
+	    description text,
+	    modification_user integer,
+	    orderitem_id integer NOT NULL,
+	    extended_price double precision,
+	    cost_each double precision,
+	    price_each double precision,
+	    product_id integer,
+	    creation_user integer,
+	    quantity numeric(19,0),
+	    creation_date timestamp without time zone,
+	    order_id integer,
+	    modification_date timestamp without time zone
+	);
+	
+	
+	
+ERROR:  relation "orders" already exists
+STATEMENT:  CREATE TABLE orders (
+	    notes_internal text,
+	    amt_tax double precision,
+	    order_date timestamp without time zone,
+	    shipaddress character varying(60),
+	    amt_shipping double precision,
+	    contact_id integer,
+	    modification_date timestamp without time zone,
+	    freight integer,
+	    shippeddate timestamp without time zone,
+	    ship_address_id integer,
+	    po_number character varying(50),
+	    pct_discount double precision,
+	    is_paid integer,
+	    is_active integer,
+	    ship_fob character varying(50),
+	    modification_user integer,
+	    terms character varying(50),
+	    customerid character(5),
+	    pct_tax double precision,
+	    zero integer,
+	    amt_discount double precision,
+	    shipcity character varying(15),
+	    quote_id integer,
+	    one integer,
+	    creation_user integer,
+	    notes text,
+	    creation_date timestamp without time zone,
+	    order_id integer NOT NULL,
+	    order_subtotal double precision,
+	    employeeid integer,
+	    paid_number character varying(50),
+	    shipregion character varying(15),
+	    ship_via character varying(50),
+	    paid_date timestamp without time zone,
+	    ship_date timestamp without time zone,
+	    shipname character varying(40),
+	    requireddate timestamp without time zone,
+	    shipvia integer,
+	    bill_address_id integer,
+	    shipcountry character varying(15),
+	    shippostalcode character varying(10),
+	    company_id integer,
+	    order_month_year character varying(50),
+	    order_total double precision,
+	    order_number integer,
+	    companyid integer,
+	    orderid integer,
+	    orderdate timestamp without time zone
+	);
+	
+	
+	
+ERROR:  relation "products" already exists
+STATEMENT:  CREATE TABLE products (
+	    product_category integer,
+	    image_type character varying(5),
+	    product_name character varying(200),
+	    cost_each double precision,
+	    modification_user integer,
+	    product_id integer NOT NULL,
+	    product_types character varying(50),
+	    product_number integer,
+	    modification_date timestamp without time zone,
+	    image_thumbnail bytea,
+	    total_sold double precision,
+	    image_mime_type character varying(50),
+	    creation_date timestamp without time zone,
+	    image_name character varying(255),
+	    product_image bytea,
+	    is_active integer,
+	    price_each double precision,
+	    description text,
+	    creation_user integer,
+	    order_description text,
+	    product_image_filename character varying(50),
+	    product_image_mimetype character varying(50)
+	);
+	
+	
+	
+ERROR:  relation "solution_names" already exists
+STATEMENT:  CREATE TABLE solution_names (
+	    solution_id integer NOT NULL,
+	    solution_name character varying(60),
+	    display_name character varying(255)
+	);
+	
+	
+	
+ERROR:  relation "solution_navigation" already exists
+STATEMENT:  CREATE TABLE solution_navigation (
+	    nav_id integer NOT NULL,
+	    rollover_text text,
+	    item_name character varying(255),
+	    sort_order double precision,
+	    solution_id integer,
+	    icon_name character varying(50),
+	    action_method text
+	);
+	
+	
+	
+ERROR:  relation "solution_preferences" already exists
+STATEMENT:  CREATE TABLE solution_preferences (
+	    seq double precision,
+	    preference_blob bytea,
+	    solution_id integer,
+	    solution_preferece_id integer NOT NULL,
+	    preference_name character varying(100),
+	    preference_value text
+	);
+	
+	
+	
+ERROR:  relation "start_here_info" already exists
+STATEMENT:  CREATE TABLE start_here_info (
+	    info_id integer NOT NULL,
+	    sort_order integer,
+	    is_webcompatible integer,
+	    solution_name character varying(255),
+	    file_name character varying(255),
+	    overview character varying(5000),
+	    item_name character varying(255),
+	    image bytea,
+	    thumbnail bytea,
+	    unique_features character varying(8000),
+	    how_to_use character varying(8000)
+	);
+	
+	
+	
+ERROR:  relation "valuelists" already exists
+STATEMENT:  CREATE TABLE valuelists (
+	    pk_id integer NOT NULL,
+	    valuelist_name character varying(100) NOT NULL,
+	    value_id integer NOT NULL,
+	    value1 character varying(255) NOT NULL,
+	    value2 character varying(255),
+	    creation_date timestamp without time zone,
+	    creation_user integer,
+	    modification_date timestamp without time zone,
+	    modification_user integer
+	);
+	
+	
+	
+ERROR:  duplicate key value violates unique constraint "addresses_pkey"
+DETAIL:  Key (address_id)=(2) already exists.
+CONTEXT:  COPY addresses, line 1
+STATEMENT:  COPY addresses (phone, modification_user, creation_user, line_3, country, fax, address_type_id, line_4, is_active, zipcode, creation_date, county, line_2, line_5, email, address_id, company_id, modification_date, line_1, state, phone_format, city, icon, test_number) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "companies_pkey"
+DETAIL:  Key (company_id)=(1) already exists.
+CONTEXT:  COPY companies, line 1
+STATEMENT:  COPY companies (is_active, modification_date, company_url, company_description, creation_user, company_email, company_industry, creation_date, html_sales, company_type_id, company_category, company_id, company_name, order_item_id, modification_user, html_sales2, company_notes, accountmanager_id) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "contacts_pkey"
+DETAIL:  Key (contact_id)=(1) already exists.
+CONTEXT:  COPY contacts, line 1
+STATEMENT:  COPY contacts (name_first, company_id, contact_id, creation_user, job_function, creation_date, name_prefix, name_suffix, mail_use_company, mail_use_country, contact_type_id, is_active, name_last, job_title, modification_date, modification_user, email, name_middle, fax_direct, contact_notes, phone_cell, name_title, phone_direct, mail_address_id) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "order_items_pkey"
+DETAIL:  Key (orderitem_id)=(18) already exists.
+CONTEXT:  COPY order_items, line 1
+STATEMENT:  COPY order_items (description, modification_user, orderitem_id, extended_price, cost_each, price_each, product_id, creation_user, quantity, creation_date, order_id, modification_date) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "orders_pkey"
+DETAIL:  Key (order_id)=(10) already exists.
+CONTEXT:  COPY orders, line 1
+STATEMENT:  COPY orders (notes_internal, amt_tax, order_date, shipaddress, amt_shipping, contact_id, modification_date, freight, shippeddate, ship_address_id, po_number, pct_discount, is_paid, is_active, ship_fob, modification_user, terms, customerid, pct_tax, zero, amt_discount, shipcity, quote_id, one, creation_user, notes, creation_date, order_id, order_subtotal, employeeid, paid_number, shipregion, ship_via, paid_date, ship_date, shipname, requireddate, shipvia, bill_address_id, shipcountry, shippostalcode, company_id, order_month_year, order_total, order_number, companyid, orderid, orderdate) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "products_pkey"
+DETAIL:  Key (product_id)=(1) already exists.
+CONTEXT:  COPY products, line 1
+STATEMENT:  COPY products (product_category, image_type, product_name, cost_each, modification_user, product_id, product_types, product_number, modification_date, image_thumbnail, total_sold, image_mime_type, creation_date, image_name, product_image, is_active, price_each, description, creation_user, order_description, product_image_filename, product_image_mimetype) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "solution_names_pkey"
+DETAIL:  Key (solution_id)=(1) already exists.
+CONTEXT:  COPY solution_names, line 1
+STATEMENT:  COPY solution_names (solution_id, solution_name, display_name) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "solution_navigation_pkey"
+DETAIL:  Key (nav_id)=(1) already exists.
+CONTEXT:  COPY solution_navigation, line 1
+STATEMENT:  COPY solution_navigation (nav_id, rollover_text, item_name, sort_order, solution_id, icon_name, action_method) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "solution_preferences_pkey"
+DETAIL:  Key (solution_preferece_id)=(1) already exists.
+CONTEXT:  COPY solution_preferences, line 1
+STATEMENT:  COPY solution_preferences (seq, preference_blob, solution_id, solution_preferece_id, preference_name, preference_value) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "start_here_info_pkey"
+DETAIL:  Key (info_id)=(3) already exists.
+CONTEXT:  COPY start_here_info, line 1
+STATEMENT:  COPY start_here_info (info_id, sort_order, is_webcompatible, solution_name, file_name, overview, item_name, image, thumbnail, unique_features, how_to_use) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "valuelists_pkey"
+DETAIL:  Key (pk_id)=(1) already exists.
+CONTEXT:  COPY valuelists, line 1
+STATEMENT:  COPY valuelists (pk_id, valuelist_name, value_id, value1, value2, creation_date, creation_user, modification_date, modification_user) FROM stdin;
+	
+ERROR:  multiple primary keys for table "addresses" are not allowed
+STATEMENT:  ALTER TABLE ONLY addresses
+	    ADD CONSTRAINT addresses_pkey PRIMARY KEY (address_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "companies" are not allowed
+STATEMENT:  ALTER TABLE ONLY companies
+	    ADD CONSTRAINT companies_pkey PRIMARY KEY (company_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "contacts" are not allowed
+STATEMENT:  ALTER TABLE ONLY contacts
+	    ADD CONSTRAINT contacts_pkey PRIMARY KEY (contact_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "order_items" are not allowed
+STATEMENT:  ALTER TABLE ONLY order_items
+	    ADD CONSTRAINT order_items_pkey PRIMARY KEY (orderitem_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "orders" are not allowed
+STATEMENT:  ALTER TABLE ONLY orders
+	    ADD CONSTRAINT orders_pkey PRIMARY KEY (order_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "products" are not allowed
+STATEMENT:  ALTER TABLE ONLY products
+	    ADD CONSTRAINT products_pkey PRIMARY KEY (product_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "solution_names" are not allowed
+STATEMENT:  ALTER TABLE ONLY solution_names
+	    ADD CONSTRAINT solution_names_pkey PRIMARY KEY (solution_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "solution_navigation" are not allowed
+STATEMENT:  ALTER TABLE ONLY solution_navigation
+	    ADD CONSTRAINT solution_navigation_pkey PRIMARY KEY (nav_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "solution_preferences" are not allowed
+STATEMENT:  ALTER TABLE ONLY solution_preferences
+	    ADD CONSTRAINT solution_preferences_pkey PRIMARY KEY (solution_preferece_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "start_here_info" are not allowed
+STATEMENT:  ALTER TABLE ONLY start_here_info
+	    ADD CONSTRAINT start_here_info_pkey PRIMARY KEY (info_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "valuelists" are not allowed
+STATEMENT:  ALTER TABLE ONLY valuelists
+	    ADD CONSTRAINT valuelists_pkey PRIMARY KEY (pk_id);
+	
+	
+	
+ERROR:  relation "pdf_actions" already exists
+STATEMENT:  CREATE TABLE pdf_actions (
+	    redirect_url character varying(255),
+	    template_id integer,
+	    form_id integer,
+	    closed integer,
+	    action_type integer,
+	    action_id integer NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "pdf_form_values" already exists
+STATEMENT:  CREATE TABLE pdf_form_values (
+	    value_name character varying(200),
+	    field_value text,
+	    fval_id integer NOT NULL,
+	    form_id integer
+	);
+	
+	
+	
+ERROR:  relation "pdf_forms" already exists
+STATEMENT:  CREATE TABLE pdf_forms (
+	    created_date timestamp without time zone,
+	    template_id integer,
+	    form_id integer NOT NULL,
+	    note character varying(200)
+	);
+	
+	
+	
+ERROR:  relation "pdf_template_values" already exists
+STATEMENT:  CREATE TABLE pdf_template_values (
+	    default_value character varying(200),
+	    value_name character varying(200),
+	    importance integer,
+	    kval_id integer NOT NULL,
+	    template_id integer
+	);
+	
+	
+	
+ERROR:  relation "pdf_templates" already exists
+STATEMENT:  CREATE TABLE pdf_templates (
+	    category character varying(255),
+	    template_name character varying(255),
+	    filename character varying(200),
+	    template_id integer NOT NULL,
+	    description character varying(200),
+	    skip_placing_submit_button integer,
+	    redirect_url character varying(255),
+	    actual_pdf_form bytea
+	);
+	
+	
+	
+ERROR:  duplicate key value violates unique constraint "pdf_actions_pkey"
+DETAIL:  Key (action_id)=(46) already exists.
+CONTEXT:  COPY pdf_actions, line 1
+STATEMENT:  COPY pdf_actions (redirect_url, template_id, form_id, closed, action_type, action_id) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "pdf_form_values_pkey"
+DETAIL:  Key (fval_id)=(333) already exists.
+CONTEXT:  COPY pdf_form_values, line 1
+STATEMENT:  COPY pdf_form_values (value_name, field_value, fval_id, form_id) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "pdf_forms_pkey"
+DETAIL:  Key (form_id)=(15) already exists.
+CONTEXT:  COPY pdf_forms, line 1
+STATEMENT:  COPY pdf_forms (created_date, template_id, form_id, note) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "pdf_template_values_pkey"
+DETAIL:  Key (kval_id)=(4) already exists.
+CONTEXT:  COPY pdf_template_values, line 1
+STATEMENT:  COPY pdf_template_values (default_value, value_name, importance, kval_id, template_id) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "pdf_templates_pkey"
+DETAIL:  Key (template_id)=(15) already exists.
+CONTEXT:  COPY pdf_templates, line 1
+STATEMENT:  COPY pdf_templates (category, template_name, filename, template_id, description, skip_placing_submit_button, redirect_url, actual_pdf_form) FROM stdin;
+	
+ERROR:  multiple primary keys for table "pdf_actions" are not allowed
+STATEMENT:  ALTER TABLE ONLY pdf_actions
+	    ADD CONSTRAINT pdf_actions_pkey PRIMARY KEY (action_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "pdf_form_values" are not allowed
+STATEMENT:  ALTER TABLE ONLY pdf_form_values
+	    ADD CONSTRAINT pdf_form_values_pkey PRIMARY KEY (fval_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "pdf_forms" are not allowed
+STATEMENT:  ALTER TABLE ONLY pdf_forms
+	    ADD CONSTRAINT pdf_forms_pkey PRIMARY KEY (form_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "pdf_template_values" are not allowed
+STATEMENT:  ALTER TABLE ONLY pdf_template_values
+	    ADD CONSTRAINT pdf_template_values_pkey PRIMARY KEY (kval_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "pdf_templates" are not allowed
+STATEMENT:  ALTER TABLE ONLY pdf_templates
+	    ADD CONSTRAINT pdf_templates_pkey PRIMARY KEY (template_id);
+	
+	
+	
+ERROR:  relation "tbl_action" already exists
+STATEMENT:  CREATE TABLE tbl_action (
+	    ixaction integer NOT NULL,
+	    ixproject integer,
+	    ixtask integer,
+	    ixcompany integer,
+	    ixperson integer,
+	    dt_created timestamp without time zone,
+	    ixtenant integer,
+	    action_type integer,
+	    action_text character varying(500)
+	);
+	
+	
+	
+ERROR:  relation "tbl_comment" already exists
+STATEMENT:  CREATE TABLE tbl_comment (
+	    ixcomment integer NOT NULL,
+	    ixtask integer,
+	    ixreplytocomment integer,
+	    dt_created timestamp without time zone,
+	    dt_modified timestamp without time zone,
+	    ixpersoncreated integer,
+	    ixpersonmodified integer,
+	    ixtenant integer,
+	    comment_text character varying(255),
+	    comment_desc character varying(2500),
+	    ixproject integer,
+	    ixmastercomment integer
+	);
+	
+	
+	
+ERROR:  relation "tbl_company" already exists
+STATEMENT:  CREATE TABLE tbl_company (
+	    ixcompany integer NOT NULL,
+	    company_name character varying(500),
+	    phone character varying(25),
+	    homepage character varying(255),
+	    proj_count integer,
+	    company_name_short character varying(255),
+	    tag_line character varying(255),
+	    fax character varying(25),
+	    address character varying(500),
+	    city character varying(50),
+	    state character varying(50),
+	    zip character varying(20),
+	    website character varying(255),
+	    intranet character varying(255),
+	    email character varying(255),
+	    category integer,
+	    comments character varying(5000),
+	    dt_created timestamp without time zone,
+	    dt_modififed timestamp without time zone,
+	    ix_personcreated integer,
+	    ixtenant integer,
+	    ix_personmodified integer,
+	    is_master_tenant integer
+	);
+	
+	
+	
+ERROR:  relation "tbl_document" already exists
+STATEMENT:  CREATE TABLE tbl_document (
+	    ixdocument integer NOT NULL,
+	    doc_name character varying(500),
+	    dt_created timestamp without time zone,
+	    dt_modified timestamp without time zone,
+	    ixproject integer,
+	    ixtask integer,
+	    ixmodifiedperson integer,
+	    ixcreatedperson integer,
+	    ixtenant integer,
+	    description character varying(5000)
+	);
+	
+	
+	
+ERROR:  relation "tbl_file" already exists
+STATEMENT:  CREATE TABLE tbl_file (
+	    ixfile integer NOT NULL,
+	    file_name character varying(500),
+	    file_type character varying(50),
+	    ixtask integer,
+	    ixproject integer,
+	    status integer,
+	    description character varying(5000),
+	    dt_created timestamp without time zone,
+	    dt_modified timestamp without time zone,
+	    ixpersoncreated integer,
+	    ixpersonmodified integer,
+	    ixtenant integer,
+	    file_data bytea,
+	    file_size integer,
+	    ixdocument integer
+	);
+	
+	
+	
+ERROR:  relation "tbl_i18n" already exists
+STATEMENT:  CREATE TABLE tbl_i18n (
+	    message_id integer NOT NULL,
+	    message_key character varying(150),
+	    message_language character varying(5),
+	    message_value character varying(2000)
+	);
+	
+	
+	
+ERROR:  relation "tbl_people" already exists
+STATEMENT:  CREATE TABLE tbl_people (
+	    ixpeople integer NOT NULL,
+	    nickname character varying(255),
+	    name_full character varying(100),
+	    ph_mobile character varying(25),
+	    ph_office character varying(25),
+	    last_login timestamp without time zone,
+	    ixtenant integer,
+	    dt_created timestamp without time zone,
+	    dt_modified timestamp without time zone,
+	    ix_personcreated integer,
+	    ix_personmodified integer,
+	    login_pw character varying(50),
+	    profile integer,
+	    category integer,
+	    fx_office character varying(25),
+	    off_city character varying(50),
+	    off_address character varying(500),
+	    off_state character varying(50),
+	    off_zip character varying(15),
+	    email_off character varying(255),
+	    email_personal character varying(255),
+	    ph_personal character varying(25),
+	    fx_personal character varying(25),
+	    birthdate timestamp without time zone,
+	    login_name character varying(100),
+	    account_active integer,
+	    comments character varying(2500)
+	);
+	
+	
+	
+ERROR:  relation "tbl_people_company" already exists
+STATEMENT:  CREATE TABLE tbl_people_company (
+	    ixpeoplecompany integer NOT NULL,
+	    ixpeople integer,
+	    ixcompany integer,
+	    ixtenant integer
+	);
+	
+	
+	
+ERROR:  relation "tbl_project" already exists
+STATEMENT:  CREATE TABLE tbl_project (
+	    ixproject integer NOT NULL,
+	    ixcompany integer,
+	    proj_name character varying(500),
+	    dt_start timestamp without time zone,
+	    dt_release timestamp without time zone,
+	    dt_plannedend timestamp without time zone,
+	    dt_created timestamp without time zone,
+	    dt_modified timestamp without time zone,
+	    ixmodifiedperson integer,
+	    ixcreatedperson integer,
+	    ixtenant integer,
+	    status integer,
+	    priority integer,
+	    dt_closed timestamp without time zone,
+	    comments character varying(2500)
+	);
+	
+	
+	
+ERROR:  relation "tbl_project_people" already exists
+STATEMENT:  CREATE TABLE tbl_project_people (
+	    ixprojectperson integer NOT NULL,
+	    ixproject integer,
+	    ixpeople integer,
+	    ixtenant integer
+	);
+	
+	
+	
+ERROR:  relation "tbl_solution_global" already exists
+STATEMENT:  CREATE TABLE tbl_solution_global (
+	    tbl_solution_global_id integer NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "tbl_task" already exists
+STATEMENT:  CREATE TABLE tbl_task (
+	    ixtask integer NOT NULL,
+	    ixproject integer,
+	    priority integer,
+	    status integer,
+	    task_name character varying(500),
+	    dt_created timestamp without time zone,
+	    dt_modified timestamp without time zone,
+	    label integer,
+	    severity integer,
+	    reproducibility integer,
+	    platform integer,
+	    task_version character varying(50),
+	    task_build character varying(50),
+	    resolution_reason integer,
+	    ixpersonassigned integer,
+	    estimated_time integer,
+	    estimated_worst_case integer,
+	    pct_complete integer,
+	    ixcreatedperson integer,
+	    ixmodifiedperson integer,
+	    ixtenant integer,
+	    dt_eststart timestamp without time zone,
+	    dt_estend timestamp without time zone,
+	    steps_reproduce character varying(5000),
+	    sugg_resolution character varying(5000),
+	    description character varying(5000),
+	    task_type integer,
+	    expected_result character varying(5000),
+	    resolved_in integer
+	);
+	
+	
+	
+ERROR:  relation "tbl_tenant" already exists
+STATEMENT:  CREATE TABLE tbl_tenant (
+	    ixtenant integer,
+	    tenant_name character varying(255),
+	    is_active integer,
+	    is_master_tenant integer,
+	    tenant_id integer NOT NULL
+	);
+	
+	
+	
+ERROR:  relation "tbl_version" already exists
+STATEMENT:  CREATE TABLE tbl_version (
+	    ixversion integer NOT NULL,
+	    version_name character varying(50),
+	    ixpersonassigned integer,
+	    ixproject integer,
+	    dt_created timestamp without time zone,
+	    dt_modified timestamp without time zone,
+	    ixpersoncreated integer,
+	    ixpersonmodified integer,
+	    status integer,
+	    dt_plannedend timestamp without time zone,
+	    release_as integer,
+	    dt_release timestamp without time zone,
+	    ixtenant integer,
+	    description character varying(5000)
+	);
+	
+	
+	
+ERROR:  duplicate key value violates unique constraint "tbl_action_pkey"
+DETAIL:  Key (ixaction)=(85) already exists.
+CONTEXT:  COPY tbl_action, line 1
+STATEMENT:  COPY tbl_action (ixaction, ixproject, ixtask, ixcompany, ixperson, dt_created, ixtenant, action_type, action_text) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "tbl_comment_pkey"
+DETAIL:  Key (ixcomment)=(7) already exists.
+CONTEXT:  COPY tbl_comment, line 1
+STATEMENT:  COPY tbl_comment (ixcomment, ixtask, ixreplytocomment, dt_created, dt_modified, ixpersoncreated, ixpersonmodified, ixtenant, comment_text, comment_desc, ixproject, ixmastercomment) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "tbl_company_pkey"
+DETAIL:  Key (ixcompany)=(5) already exists.
+CONTEXT:  COPY tbl_company, line 1
+STATEMENT:  COPY tbl_company (ixcompany, company_name, phone, homepage, proj_count, company_name_short, tag_line, fax, address, city, state, zip, website, intranet, email, category, comments, dt_created, dt_modififed, ix_personcreated, ixtenant, ix_personmodified, is_master_tenant) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "tbl_document_pkey"
+DETAIL:  Key (ixdocument)=(1) already exists.
+CONTEXT:  COPY tbl_document, line 1
+STATEMENT:  COPY tbl_document (ixdocument, doc_name, dt_created, dt_modified, ixproject, ixtask, ixmodifiedperson, ixcreatedperson, ixtenant, description) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "tbl_file_pkey"
+DETAIL:  Key (ixfile)=(1) already exists.
+CONTEXT:  COPY tbl_file, line 1
+STATEMENT:  COPY tbl_file (ixfile, file_name, file_type, ixtask, ixproject, status, description, dt_created, dt_modified, ixpersoncreated, ixpersonmodified, ixtenant, file_data, file_size, ixdocument) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "tbl_i18n_pkey"
+DETAIL:  Key (message_id)=(1) already exists.
+CONTEXT:  COPY tbl_i18n, line 1
+STATEMENT:  COPY tbl_i18n (message_id, message_key, message_language, message_value) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "tbl_people_pkey"
+DETAIL:  Key (ixpeople)=(10) already exists.
+CONTEXT:  COPY tbl_people, line 1
+STATEMENT:  COPY tbl_people (ixpeople, nickname, name_full, ph_mobile, ph_office, last_login, ixtenant, dt_created, dt_modified, ix_personcreated, ix_personmodified, login_pw, profile, category, fx_office, off_city, off_address, off_state, off_zip, email_off, email_personal, ph_personal, fx_personal, birthdate, login_name, account_active, comments) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "tbl_people_company_pkey"
+DETAIL:  Key (ixpeoplecompany)=(7) already exists.
+CONTEXT:  COPY tbl_people_company, line 1
+STATEMENT:  COPY tbl_people_company (ixpeoplecompany, ixpeople, ixcompany, ixtenant) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "tbl_project_pkey"
+DETAIL:  Key (ixproject)=(4) already exists.
+CONTEXT:  COPY tbl_project, line 1
+STATEMENT:  COPY tbl_project (ixproject, ixcompany, proj_name, dt_start, dt_release, dt_plannedend, dt_created, dt_modified, ixmodifiedperson, ixcreatedperson, ixtenant, status, priority, dt_closed, comments) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "tbl_project_people_pkey"
+DETAIL:  Key (ixprojectperson)=(15) already exists.
+CONTEXT:  COPY tbl_project_people, line 1
+STATEMENT:  COPY tbl_project_people (ixprojectperson, ixproject, ixpeople, ixtenant) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "tbl_task_pkey"
+DETAIL:  Key (ixtask)=(7) already exists.
+CONTEXT:  COPY tbl_task, line 1
+STATEMENT:  COPY tbl_task (ixtask, ixproject, priority, status, task_name, dt_created, dt_modified, label, severity, reproducibility, platform, task_version, task_build, resolution_reason, ixpersonassigned, estimated_time, estimated_worst_case, pct_complete, ixcreatedperson, ixmodifiedperson, ixtenant, dt_eststart, dt_estend, steps_reproduce, sugg_resolution, description, task_type, expected_result, resolved_in) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "tbl_tenant_pkey"
+DETAIL:  Key (tenant_id)=(3) already exists.
+CONTEXT:  COPY tbl_tenant, line 1
+STATEMENT:  COPY tbl_tenant (ixtenant, tenant_name, is_active, is_master_tenant, tenant_id) FROM stdin;
+	
+ERROR:  duplicate key value violates unique constraint "tbl_version_pkey"
+DETAIL:  Key (ixversion)=(1) already exists.
+CONTEXT:  COPY tbl_version, line 1
+STATEMENT:  COPY tbl_version (ixversion, version_name, ixpersonassigned, ixproject, dt_created, dt_modified, ixpersoncreated, ixpersonmodified, status, dt_plannedend, release_as, dt_release, ixtenant, description) FROM stdin;
+	
+ERROR:  multiple primary keys for table "tbl_action" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_action
+	    ADD CONSTRAINT tbl_action_pkey PRIMARY KEY (ixaction);
+	
+	
+	
+ERROR:  multiple primary keys for table "tbl_comment" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_comment
+	    ADD CONSTRAINT tbl_comment_pkey PRIMARY KEY (ixcomment);
+	
+	
+	
+ERROR:  multiple primary keys for table "tbl_company" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_company
+	    ADD CONSTRAINT tbl_company_pkey PRIMARY KEY (ixcompany);
+	
+	
+	
+ERROR:  multiple primary keys for table "tbl_document" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_document
+	    ADD CONSTRAINT tbl_document_pkey PRIMARY KEY (ixdocument);
+	
+	
+	
+ERROR:  multiple primary keys for table "tbl_file" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_file
+	    ADD CONSTRAINT tbl_file_pkey PRIMARY KEY (ixfile);
+	
+	
+	
+ERROR:  multiple primary keys for table "tbl_i18n" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_i18n
+	    ADD CONSTRAINT tbl_i18n_pkey PRIMARY KEY (message_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "tbl_people_company" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_people_company
+	    ADD CONSTRAINT tbl_people_company_pkey PRIMARY KEY (ixpeoplecompany);
+	
+	
+	
+ERROR:  multiple primary keys for table "tbl_people" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_people
+	    ADD CONSTRAINT tbl_people_pkey PRIMARY KEY (ixpeople);
+	
+	
+	
+ERROR:  multiple primary keys for table "tbl_project_people" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_project_people
+	    ADD CONSTRAINT tbl_project_people_pkey PRIMARY KEY (ixprojectperson);
+	
+	
+	
+ERROR:  multiple primary keys for table "tbl_project" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_project
+	    ADD CONSTRAINT tbl_project_pkey PRIMARY KEY (ixproject);
+	
+	
+	
+ERROR:  multiple primary keys for table "tbl_solution_global" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_solution_global
+	    ADD CONSTRAINT tbl_solution_global_pkey PRIMARY KEY (tbl_solution_global_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "tbl_task" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_task
+	    ADD CONSTRAINT tbl_task_pkey PRIMARY KEY (ixtask);
+	
+	
+	
+ERROR:  multiple primary keys for table "tbl_tenant" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_tenant
+	    ADD CONSTRAINT tbl_tenant_pkey PRIMARY KEY (tenant_id);
+	
+	
+	
+ERROR:  multiple primary keys for table "tbl_version" are not allowed
+STATEMENT:  ALTER TABLE ONLY tbl_version
+	    ADD CONSTRAINT tbl_version_pkey PRIMARY KEY (ixversion);
+	
+	
 	
 LOG:  received smart shutdown request
 LOG:  autovacuum launcher shutting down
 LOG:  shutting down
 LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-31 11:06:31 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-31 11:26:31 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-31 11:57:24 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-31 12:00:18 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-31 15:25:35 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-31 15:44:47 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-WARNING:  worker took too long to start; canceled
-WARNING:  autovacuum worker started without a worker entry
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-03-31 20:59:01 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-04-01 11:54:17 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-04-01 14:18:14 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-04-01 17:13:20 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-04-01 22:09:41 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-04-04 10:05:06 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-04-04 10:06:28 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-04-04 10:09:43 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-04-04 10:12:12 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
-	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
-	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
-	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
-	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
-	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
-	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
-	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
-	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
-	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
-	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
-	
-LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
-	
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-04-04 12:19:45 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-04-04 17:05:31 CEST
-LOG:  database system is ready to accept connections
-LOG:  autovacuum launcher started
-LOG:  received smart shutdown request
-LOG:  autovacuum launcher shutting down
-LOG:  shutting down
-LOG:  database system is shut down
-LOG:  database system was shut down at 2016-04-04 21:30:14 CEST
+LOG:  database system was shut down at 2015-09-23 13:08:14 EDT
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
 LOG:  received smart shutdown request

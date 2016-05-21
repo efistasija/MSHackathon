@@ -1,4 +1,0 @@
-0:0:0:0:0:0:0:1 - - [21/May/2016:11:37:28 +0200] "POST /servoy-service/rest_ws/msbd/patientpvt/1/1 HTTP/1.1" 401 -
-0:0:0:0:0:0:0:1 - - [21/May/2016:11:39:10 +0200] "POST /servoy-service/rest_ws/msbd/patientpvt/1/1 HTTP/1.1" 401 -
-0:0:0:0:0:0:0:1 - - [21/May/2016:11:39:45 +0200] "POST /servoy-service/rest_ws/msbd/patientpvt/1/1 HTTP/1.1" 200 4
-0:0:0:0:0:0:0:1 - - [21/May/2016:11:42:25 +0200] "POST /servoy-service/rest_ws/msbd/patientpvt/1/1 HTTP/1.1" 200 4

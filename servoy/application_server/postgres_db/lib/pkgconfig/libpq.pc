@@ -1,0 +1,9 @@
+Name: libpq
+Description: PostgreSQL libpq library
+Url: http://www.postgresql.org/
+Version: 9.3.5
+Requires: 
+Requires.private: 
+Cflags: -I/mnt/hgfs/pginstaller-repo/server/staging/linux/include
+Libs: -L/mnt/hgfs/pginstaller-repo/server/staging/linux/lib -lpq
+Libs.private: -L/opt/local/20140108/250dd6aa-8d66-11e3-a5cf-000c29000045/lib -L/usr/local/lib -lssl -lcrypto -lgssapi_krb5 -lcrypt -lldap_r -lpthread

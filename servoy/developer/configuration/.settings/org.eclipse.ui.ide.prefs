@@ -1,5 +1,5 @@
 MAX_RECENT_WORKSPACES=5
-RECENT_WORKSPACES=C\:\\Users\\Paolo\\servoy_workspace_8_3025_mshackaton\nC\:\\Users\\Paolo\\servoy_workspace_8_3025_servoy_camp_components_2\nC\:\\Users\\Paolo\\servoy_workspace_8_3025_servoy_camp_components\nC\:\\Users\\Paolo\\servoy_workspace_8_3025_angularmaterial\nC\:\\Users\\Paolo\\servoy_workspace_8_3025_wc_angularmaterial
+RECENT_WORKSPACES=/home/osboxes/servoy_workspace2\n/home/osboxes/servoy_workspace
 RECENT_WORKSPACES_PROTOCOL=3
 SHOW_WORKSPACE_SELECTION_DIALOG=false
 eclipse.preferences.version=1
