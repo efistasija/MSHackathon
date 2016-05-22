@@ -35,11 +35,22 @@ function insertRow(row, tablename, fk, fkTable) {
 		} else if (value instanceof Boolean) {
 			parsedval = value
 		} else if (value instanceof Array) {
-			parsedval = value
+			// TODO insert the parsed value
+			for (var i = 0; i < value.length; i++) {
+				insertRow(value[i], key, pk, tablename);
+			}
 		}
-		
-		var sql = "insert into bigdb (bigdb_id, table_name, column_name, data, pk) values (?, ?, ?, ?, ?)"
-		application.output(plugins.rawSQL.executeSQL("big_dating","bigdb",sql, [application.getUUID().toString(), tablename, key, parsedval, pk ]))
+
+		var sql;
+		var args = [application.getUUID().toString(), tablename, key, parsedval, pk];
+		if (fk) {
+			sql = "insert into bigdb (bigdb_id, table_name, column_name, data, pk, fk, fk_table_name) values (?, ?, ?, ?, ?, ?, ?)"; 
+			args.push(fk);
+			args.push(fkTable);
+		} else {
+			sql = "insert into bigdb (bigdb_id, table_name, column_name, data, pk) values (?, ?, ?, ?, ?)";
+		}
+		application.output(plugins.rawSQL.executeSQL("big_dating","bigdb",sql, args))
 	}
 	
 }

@@ -50,9 +50,11 @@ function ws_update(json, version, pk) {
  *
  * @properties={typeid:24,uuid:"B7D9AD04-0460-40B3-B72C-5E1F0F64A631"}
  */
-function ws_create(json, version, key) {
+function ws_create(json, entity, key) {
+	application.output(entity)
+	application.output(key)
 	try {
-		scopes.bigdb.createRecord(json, controller.getName())
+		scopes.bigdb.createRecord(json, entity)
 		return 200;
 	} catch (e) {
 		throw 500;
