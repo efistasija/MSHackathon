@@ -77,7 +77,7 @@ function getJSON(tablename, pk,  fk, fkTable) {
 	} else {
 		
 	}
-	sql += " ORDER BY pk"
+	sql += " ORDER BY pk, time_stamp"
 		
 	var dataset = databaseManager.getDataSetByQuery("big_dating",sql,args,-1)
 		
