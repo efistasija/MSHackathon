@@ -96,13 +96,16 @@ function getJSON(tablename, pk,  fk, fkTable) {
 		var time = dsRow[3]
 		
 		data[key] = value;
+		if (!data.time && time) {
+			data.timestamp = time.getTime();
+		}
+		if (!data.id) {
+			data.id = pkItem;
+		}
 
 		if (!lastPk) {
 			lastPk = pkItem
 		} else if (pkItem != lastPk) {
-			if (time) {
-				data.timestamp = time.getTime();
-			}
 			result.push(data);
 			lastPk = pkItem;
 			data = {}
