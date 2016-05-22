@@ -6,7 +6,7 @@ function ws_read(entity, pkey) {
 	application.output(pkey)
 	
 	var result = scopes.bigdb.getJSON(entity, pkey) ;
-	return result
+	return JSON.stringify(result)
 //  for (var i = 0; arguments.length; i++) {
 //      if (typeof arguments[i] == 'String') { //The URL path additions are passed in as Strings
 //           application.output('URL Path addition: ' + arguments[i])

@@ -40,16 +40,20 @@ function insertRow(row, tablename, fk, fkTable) {
 			for (var i = 0; i < value.length; i++) {
 				insertRow(value[i], key, pk, tablename);
 			}
+		} else if (typeof(value) === "object") {
+			insertRow(value, key, pk, tablename);
 		}
+		application.output(parsedval)
+
 
 		var sql;
-		var args = [application.getUUID().toString(), tablename, key, parsedval, pk];
+		var args = [application.getUUID().toString(), tablename, key, parsedval, pk, new Date()];
 		if (fk) {
-			sql = "insert into bigdb (bigdb_id, table_name, column_name, data, pk, fk, fk_table_name) values (?, ?, ?, ?, ?, ?, ?)"; 
+			sql = "insert into bigdb (bigdb_id, table_name, column_name, data, pk, time_stamp, fk, fk_table_name) values (?, ?, ?, ?, ?, ?, ?, ?)"; 
 			args.push(fk);
 			args.push(fkTable);
 		} else {
-			sql = "insert into bigdb (bigdb_id, table_name, column_name, data, pk) values (?, ?, ?, ?, ?)";
+			sql = "insert into bigdb (bigdb_id, table_name, column_name, data, pk, time_stamp) values (?, ?, ?, ?, ?, ?)";
 		}
 		application.output(plugins.rawSQL.executeSQL("big_dating","bigdb",sql, args))
 	}
@@ -65,7 +69,7 @@ function insertRow(row, tablename, fk, fkTable) {
  * @properties={typeid:24,uuid:"4F94CF7C-C87C-4DCE-B83F-96D065D809CE"}
  */
 function getJSON(tablename, pk,  fk, fkTable) {
-	var sql = "select pk, column_name as key, data as value from bigdb where table_name = ? "
+	var sql = "select pk, column_name as key, data as value, time_stamp as time from bigdb where table_name = ? "
 	var args = [tablename]
 	if (pk) {
 		sql += " AND pk = ? ";
@@ -88,18 +92,25 @@ function getJSON(tablename, pk,  fk, fkTable) {
 		var pkItem = dsRow[0]
 		var key = dsRow[1]
 		var value = dsRow[2]
+		/** @type {Data} */
+		var time = dsRow[3]
 		
 		data[key] = value;
 
 		if (!lastPk) {
 			lastPk = pkItem
 		} else if (pkItem != lastPk) {
+			if (time) {
+				data.timestamp = time.getTime();
+			}
 			result.push(data);
 			lastPk = pkItem;
 			data = {}
 		}
 
 	}
-	result.push(data)
+	if (!result.length) {
+		result.push(data)
+	}
 	return result
 }

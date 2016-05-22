@@ -66,6 +66,12 @@ creationOrderIndex:3,
 dataType:12,
 length:50,
 name:"table_name"
+},
+{
+allowNull:true,
+creationOrderIndex:9,
+dataType:93,
+name:"time_stamp"
 }
 ],
 name:"bigdb",
