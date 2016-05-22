@@ -1,0 +1,14 @@
+columns:[
+{
+allowNull:false,
+autoEnterSubType:3,
+autoEnterType:2,
+compatibleColumnTypes:"[[12,2147483647,0]]",
+creationOrderIndex:0,
+dataType:12,
+flags:5,
+name:"patient_id"
+}
+],
+name:"patient",
+tableType:0
