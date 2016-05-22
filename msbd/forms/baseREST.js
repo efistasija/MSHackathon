@@ -1,18 +1,20 @@
-/**
- * TODO generated, please specify type and doc for the params
- * @param useruid
- * @param password
- *
- * @properties={typeid:24,uuid:"0FD1E496-E5D7-47B7-95CA-B994C7E707A0"}
- */
-function ws_authenticate(useruid, password) {
-    if (password === 'demo') { //static demo check
-        return {
-          username: useruid
-        }
-    }
-    return false;
-}
+///**
+// * TODO generated, please specify type and doc for the params
+// * @param useruid
+// * @param password
+// *
+// * @properties={typeid:24,uuid:"0FD1E496-E5D7-47B7-95CA-B994C7E707A0"}
+// */
+//function ws_authenticate(useruid, password) {
+//	application.output(useruid)
+//	application.output(password)
+//    if (password === 'demo') { //static demo check
+//        return {
+//          username: useruid
+//        }
+//    }
+//    return false;
+//}
 
 
 

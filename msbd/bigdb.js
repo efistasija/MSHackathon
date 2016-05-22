@@ -2,16 +2,17 @@
  * @properties={typeid:24,uuid:"5FB52B9A-A9E9-4078-991C-321116F83EDF"}
  */
 function createRecord(data, tablename) {
-	
+	var pk
 	if (data instanceof Array) {
 		for (var i = 0; i < data.length; i++) {
 			var row = data[i];
-			insertRow(row, tablename);
+			pk = insertRow(row, tablename);
 		}
 		plugins.rawSQL.flushAllClientsCache("big_dating","merged_data_analysc");
 	} else {
-		insertRow(data, tablename)
+		pk = insertRow(data, tablename)
 	}
+	return pk;
 }
 
 /**
@@ -52,5 +53,53 @@ function insertRow(row, tablename, fk, fkTable) {
 		}
 		application.output(plugins.rawSQL.executeSQL("big_dating","bigdb",sql, args))
 	}
+	return pk
+}
+
+/**
+ * @param tablename
+ * @param pk
+ * @param [fk]
+ * @param [fkTable]
+ *
+ * @properties={typeid:24,uuid:"4F94CF7C-C87C-4DCE-B83F-96D065D809CE"}
+ */
+function getJSON(tablename, pk,  fk, fkTable) {
+	var sql = "select pk, column_name as key, data as value from bigdb where table_name = ? "
+	var args = [tablename]
+	if (pk) {
+		sql += " AND pk = ? ";
+		args.push(pk)
+	} else {
+		
+	}
+	sql += " ORDER BY pk"
+		
+	var dataset = databaseManager.getDataSetByQuery("big_dating",sql,args,-1)
+		
+	application.output(dataset);
 	
+	var columns = dataset.getColumnNames();
+	var result = [];
+	var lastPk;
+	var data = {}
+	for (var i = 1; i <= dataset.getMaxRowIndex(); i++) {
+		var dsRow = dataset.getRowAsArray(i);
+		var pkItem = dsRow[0]
+		var key = dsRow[1]
+		var value = dsRow[2]
+		
+		data[key] = value;
+
+		if (!lastPk) {
+			lastPk = pkItem
+		} else if (pkItem != lastPk) {
+			result.push(data);
+			lastPk = pkItem;
+			data = {}
+		}
+
+	}
+	result.push(data)
+	return result
 }
